@@ -145,8 +145,27 @@ img {
         
     }
 
+    h1{
+        text-align: center;
+    }
+
     .row{
         display: block;
+        
+    }
+    
+    .col{
+        width: 100%;
+        margin: 0 auto;  
+    }
+
+    .lessons .col {
+        width: 100%;
+    }
+
+    .steps{
+        margin: 6rem 0;
+        padding: 6rem 0;
     }
 
     .why-us{
