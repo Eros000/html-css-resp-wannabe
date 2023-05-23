@@ -133,6 +133,9 @@ img {
 
  @media screen and (max-width: 768px){
 
+    .container{
+        width: 100%;
+    }
 
 
  }
@@ -141,35 +144,32 @@ img {
 
  @media screen and (max-width: 480px){
 
-    body{
-        
-    }
-
-    h1{
-        text-align: center;
-    }
-
     .row{
-        display: block;
+        flex-wrap: wrap;
         
     }
     
-    .col{
+    .row .col{
         width: 100%;
-        margin: 0 auto;  
+          
     }
 
-    .lessons .col {
-        width: 100%;
+    .col:not(:last-child){
+        margin-bottom: 3rem;
     }
 
-    .steps{
-        margin: 6rem 0;
-        padding: 6rem 0;
-    }
+
 
     .why-us{
-        background-color: black;
+        background-color: #222222;
+        padding: 3rem 0;
     }
+
+    .steps,
+    .why-us{
+        margin-bottom: 0;
+    }
+
+
     
  }
